@@ -1,7 +1,7 @@
 # MultiCloud-VPC-POC
 
 ## Description
-VPC-Connectivity-Lab is a proof-of-concept (POC) repository focused on validating Virtual Private Cloud (VPC) connectivity across major cloud providers (AWS, GCP, Azure) and between different regions within the same cloud. This project aims to explore and demonstrate best practices for VPC peering, transit gateways, and hybrid network architectures, offering reproducible prototypes and testing scenarios for multi-cloud and multi-region networking solutions.
+MultiCloud-VPC-POC is a proof-of-concept (POC) repository focused on validating Virtual Private Cloud (VPC) connectivity across major cloud providers (AWS, GCP, Azure) and between different regions within the same cloud. This project aims to explore and demonstrate best practices for VPC peering, transit gateways, and hybrid network architectures, offering reproducible prototypes and testing scenarios for multi-cloud and multi-region networking solutions.
 
 ## Features
 - 🔗 **Cross-Cloud VPC Interconnectivity:** Establish and validate network links between AWS, GCP, and Azure VPCs.
@@ -19,8 +19,8 @@ VPC-Connectivity-Lab is a proof-of-concept (POC) repository focused on validatin
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-username/VPC-Connectivity-Lab.git
-cd VPC-Connectivity-Lab
+git clone https://github.com/your-username/MultiCloud-VPC-POC.git
+cd MultiCloud-VPC-POC
 ```
 
 ### Setup Environment
