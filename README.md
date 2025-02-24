@@ -41,6 +41,19 @@ terraform apply
 ```
 Follow the prompts to approve the deployment.
 
+## Project Structure
+
+This repository contains two main implementations for multi-region VPC connectivity:
+
+### aws-multi-region-peering-vpc
+Demonstrates VPC peering between different AWS regions. However, there are some important limitations:
+- If VPC A has an internet gateway, resources in VPC B cannot use VPC A's internet gateway to access the internet
+- If VPC A has a NAT device, resources in VPC B cannot use VPC A's NAT device to access the internet
+- https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-basics.html
+
+### aws-multi-region-tgw-vpc
+Explores Transit Gateway implementation for connecting VPCs across regions. This implementation is currently under research and development.
+
 ## Testing Connectivity
 - Run network validation scripts in the `scripts` directory:
 ```sh
@@ -58,4 +71,3 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 
 ## License
 This project is licensed under the MIT License.
-
