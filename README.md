@@ -1,5 +1,7 @@
 # MultiCloud-VPC-POC
 
+[![Made with AI](https://img.shields.io/badge/made_with_AI-Claude_3.5_Sonnet-green?style=for-the-badge)](https://github.com/higumadev/MultiCloud-VPC-POC)
+
 ## Description
 MultiCloud-VPC-POC is a proof-of-concept (POC) repository focused on validating Virtual Private Cloud (VPC) connectivity across major cloud providers (AWS, GCP, Azure) and between different regions within the same cloud. This project aims to explore and demonstrate best practices for VPC peering, transit gateways, and hybrid network architectures, offering reproducible prototypes and testing scenarios for multi-cloud and multi-region networking solutions.
 
